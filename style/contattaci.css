@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.titolo{
+    margin-top: 130px;
+    font-size: 70px;
+}
+
+.links{
+    text-align: left;
+}
+
+.link img{
+    height: 40px;
+    margin-right: 5px;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.tutto{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px){
+    .link{
+        font-size: 30px;
+    }
+    .tutto{
+        flex-direction: column;
+    }
+
+    #mappa{
+        width: 400px;
+        height: 300px;
+    }
+}

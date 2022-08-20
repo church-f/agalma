@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agalma gioielli</title>
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/home.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <script src="./header.js"></script>
+
+    <div class="chi_siamo">
+        <h1>AGALMA è il vocabolo che gli antichi greci utilizzavano per indicare l'arte del lavorare il metallo ed AGALMA GIOIELLI vuole rappresentare l'espressione moderna di quell'arte.
+        </h1>
+        
+        <a href="./chi_siamo.html">leggi meglio chi siamo</a>
+    </div>
+    
+    <div class="gioielli_out">
+        <h1>alcuni dei nostri gioielli</h1>
+        
+        <div class="gioielli">
+            
+            <div class="gioiello anello" onclick="window.location.href = './il_laboratorio.html'">
+                <p>anelli</p>
+            </div>
+            <div class="gioiello orecchini" onclick="window.location.href = './il_laboratorio.html'">
+                <p>orecchini</p>
+            </div>
+            <div class="gioiello collane" onclick="window.location.href = './il_laboratorio.html'">
+                <p>collane</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="contatti">
+        <h1>vieni a trovarci</h1>
+        <iframe id="mappa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.441656629537!2d9.178345622422576!3d45.44075548597988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c40c98096289%3A0x41f939c5f010d147!2sVia%20Ruggero%20Bonghi%2C%2022%2C%2020141%20Milano%20MI!5e0!3m2!1sit!2sit!4v1655748816552!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h2>Via Ruggero Bonghi, 22, Milano</h2>
+
+        <div class="link">
+            <a href="https://www.instagram.com/agalma_gioielli/"><img src="foto/insta.png" alt="instagram" class="infoo"></a>
+            <a href="https://www.facebook.com/AgalmaGioielliMilano"><img src="foto/faccialibro.png" alt="facebook" class="infoo"></a>
+            <a href="tel:0286464582"><img src="foto/telefono.svg" alt="0286464582" class="infoo"></a>
+        </div>
+
+
+    </div>
+
+    <div class="corsi">
+        <h1>i nostri corsi</h1>
+        <h2>
+            AGALMA GIOIELLI  è Galleria specializzata in Gioielleria Contemporanea e laboratorio di oreficeria:
+in quest'ultimo si creano parte dei monili proposti al pubblico nella Galleria e si tengono i corsi di laboratorio per oreficeria. Ogni corso prevede la partecipazione di un massimo di due allievi seguiti da un insegnante.
+        </h2>
+        <a href="./la_scuola.html">più informazioni</a>
+    </div>
+
+    <footer>
+        <div class="sx">
+            AGALMA Snc
+            <br>
+            via Ruggero Bonghi, 22, Milano
+            <br>
+            <div class="info">
+                <img src="foto/telefono_w.png" alt="tel:">
+                <a href="tel:0286464582">0286464582</a>
+            </div>
+        </div>
+
+        <div class="c">
+            <div class="info">
+                <img src="foto/insta_w.png" alt="instagram:">
+                <a href="https://www.instagram.com/agalma_gioielli/">agalma_gioielli</a>
+            </div>
+            <div class="info">
+                <img src="foto/faccialibro_w.png" alt="facebook:">
+                <a href="https://www.facebook.com/AgalmaGioielliMilano">AgalmaGioielliMilano</a>
+            </div>
+        </div>
+
+        <div class="dx">
+            C.F. e P.IVA 11783620153
+            <br>
+            Marchio di fabbr. *1779MI
+            <br>
+            web developer Cristian Romano
+        </div>
+    </footer>
+
+    <script>
+        const menuu = document.getElementById('menu')
+        function menu(x) {
+            x.classList.toggle("change");
+            menuu.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>

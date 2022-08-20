@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agalma gioielli | chi siamo</title>
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/chi_siamo.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Lato', sans-serif;
+        }
+        body, html{
+            height: 100%;
+        }
+        footer{
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <script src="./header.js"></script>
+
+    <h1 class="titolo">il laboratorio</h1>
+    <h2>
+        Nel laboratorio di AGALMA GIOIELLI lavora LIMODORO che, oltre a realizzare le sue creazioni, si occupa di soddisfare le richieste di gioielli personalizzati che arrivano dalla nostra clientela. Presso il nostro laboratorio si eseguono accurate riparazioni di articoli di gioielleria ed oreficeria, infilatura di collane e bracciali ed anche interventi di manutenzione e ripristino di gioielli in argento.
+    </h2>
+
+    <footer>
+        <div class="sx">
+            AGALMA Snc
+            <br>
+            via Ruggero Bonghi, 22, Milano
+            <br>
+            <div class="info">
+                <img src="foto/telefono_w.png" alt="tel:">
+                <a href="tel:0286464582">0286464582</a>
+            </div>
+        </div>
+
+        <div class="c">
+            <div class="info">
+                <img src="foto/insta_w.png" alt="instagram:">
+                <a href="https://www.instagram.com/agalma_gioielli/">agalma_gioielli</a>
+            </div>
+            <div class="info">
+                <img src="foto/faccialibro_w.png" alt="facebook:">
+                <a href="https://www.facebook.com/AgalmaGioielliMilano">AgalmaGioielliMilano</a>
+            </div>
+        </div>
+
+        <div class="dx">
+            C.F. e P.IVA 11783620153
+            <br>
+            Marchio di fabbr. *1779MI
+            <br>
+            web developer Cristian Romano
+        </div>
+    </footer>
+
+    <script>
+        const menuu = document.getElementById('menu')
+        function menu(x) {
+            x.classList.toggle("change");
+            menuu.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>

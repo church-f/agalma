@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.titolo{
+    margin-top: 150px;
+    font-size: 70px;
+}
+
+.des_cap, .info_gen h2, .descrizione{
+    font-weight: 300;
+}
+.des_cap{
+    font-size: 25px;
+    margin: 40px 10%;
+}
+
+.info_gen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.info_gen h2{
+    margin: 0 10px;
+}
+
+.descrizione{
+    margin: 0 10%;
+}
+
+.corso{
+    margin: 50px 0;
+}
+
+.sub{
+    font-weight: bold;
+}
+
+ul{
+    text-align: left;
+    margin-left: 50px;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .titolo{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+    .descrizione{
+        margin: 0 3%;
+    }
+    .des_cap{
+        font-size: 20px;
+        margin: 40px 3%;
+    }
+}

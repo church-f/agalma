@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.titolo{
+    margin-top: 150px;
+    font-size: 70px;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 25px;
+    margin: 40px 10%;
+}
+
+@media screen and (max-width: 768px){
+    .titolo{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+    
+}
